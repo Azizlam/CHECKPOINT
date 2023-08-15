@@ -1,0 +1,91 @@
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #e2f01bd5;
+  }
+  
+  li {
+    display: inline;
+  }
+  
+  li a {
+    
+    color: rgb(31, 196, 132);
+    text-align: center;
+    padding: 32px;
+    text-decoration: none;
+    font-family: 'roboto';
+    display:inline;
+    
+    
+    
+  }
+  
+  li a:hover {
+    background-color: #fffdfd;
+  }
+  table, th, td {
+    border-style: dotted;
+    border-color: grey;
+    
+    border-collapse: collapse;
+  }
+  th {
+    padding: 5px;
+color: green;
+font-family: 'roboto';
+font-size: 32px ;}
+td{
+    padding: 5px;
+    color: black;
+    font-family: 'roboto';
+    font-size: 32px ;
+
+}
+.header{
+    color: green;
+    text-align: center;
+    font-family: 'Trebuchet MS';
+    font-style: italic;
+    
+    
+}
+.n1,.n2,.n3,.n4,.n5{
+    color: green;
+    font-family: 'roboto';
+    font-size: 32px;}
+body{
+    background-color: greenyellow;
+}
+
+
+
+
+.w1,.w2,.w3,.w4,.w5{
+    color: yellowgreen;
+    font-family: 'roboto';
+    font-size: 16px;
+
+}
+.about{color: green;
+  text-align: center;
+  font-family: 'Trebuchet MS';
+  font-style: italic;
+
+}
+.contact1{color: green;
+  text-align: center;
+  font-family: 'Trebuchet MS';
+  font-style: italic;
+
+}
+.contact{ color: rgb(0, 255, 34);
+  font-family: 'roboto';
+  font-size: 16px;}
+.para{color: rgb(0, 250, 12);
+  font-family: 'roboto';
+  font-size: 16px;
+text-align: justify;}

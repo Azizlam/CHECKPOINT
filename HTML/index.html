@@ -5,37 +5,7 @@
     <meta charset="UTF-8" name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fitnesspark</title>
     <link rel="icon" type=image/x-icon" href="C:\Users\ma-la\Desktop\GOMYCODE\HTML\aa.png">
-    <style>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-  overflow: hidden;
-  background-color: #5e595933;
-}
-
-li {
-  float: left;
-}
-
-li a {
-  display: list-item;
-  color: white;
-  text-align: center;
-  padding: 16px;
-  text-decoration: none;
-}
-
-li a:hover {
-  background-color: #524b4b;
-}
-table, th, td {
-  border: none;
-  border-collapse: collapse;
-}
-th, td {
-  padding: 5px;}
-</style>
+    <link rel="stylesheet" href="style.css">
 <nav>
 <ul>
   <li ><a href="index.html">Home</a></li>
@@ -45,40 +15,45 @@ th, td {
 </ul>
 </nav>
 </head>
-<body>
+<body >
     <form> 
-      <h1>Inscription</h1>
-      <label>Name </label>
+      <h1 class="header">Inscription</h1>
+      <label class="n5">Name </label>
       <input
         type="text"
         name="n"
         placeholder="Please enter your name"
+        class="w4"
       />
       <br/>
-      <label>Genre:</label>
-      <select>
+      <label class="n4">Genre:</label>
+      <select class="w5">
         <option value="">Femme</option>
         <option value="">Homme</option>
         <option value="">Autre</option>
       </select>
-      <label>Phone Number:</label>
+      <br/>
+      <label class="n1">Phone Number:</label>
       <input
         type="number"
         name="num"
         placeholder="Please enter your phone number"
+        class="w1"
       />
       <br />
-      <label>Age:</label>
+      <label class="n2" >Age:</label>
       <input
         type="number"
         name="ag"
-        placeholder="Please enter your age">
+        placeholder="Please enter your age"
+        class="w3">
         <br/>
-      <label>Birth Date:</label>
+      <label class="n3">Birth Date:</label>
       <input
         type="date"
         name="dn"
         placeholder="Please enter your bithdate"
+        class="w2"
       />
       <br />
     </form>
